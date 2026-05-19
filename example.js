@@ -22,6 +22,7 @@ const { chromium } = require('playwright');
   // wait for a visible element on next page
   await page.waitForSelector('h1');
 
+ await page.waitForSelector('h2');
   // take screenshot
   await page.screenshot({ path: 'playwright.png' });
 
