@@ -13,6 +13,7 @@ test('Fabindia Login Test', async ({ page }) => {
 
     // Password
     await page.locator('#txtPassword').fill('admin.ITTS');
+    await page.locator('#txtPassword').fill('admin.ITTS');
     await page.locator('#txtCaptcha').fill('1234');
     // Captcha handling
 
