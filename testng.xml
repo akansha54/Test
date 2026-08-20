@@ -11,11 +11,10 @@
     <test name="Automation Tests">
 
         <classes>
-
             <class name="tests.LoginTest"/>
-            <class name="tests.ShoppingCartTest"/>
             <class name="tests.CheckoutTest"/>
-
+            <class name="tests.CartPageTest"/>
+           
         </classes>
 
     </test>
